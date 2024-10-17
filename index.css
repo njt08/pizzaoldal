@@ -2,4 +2,15 @@
     background-color: rgb(63, 63, 63);
     height: 350px;
     color: white;
+    border-color:  rgb(63, 63, 63);
+}
+#toribal{
+    float: left;
+    border-color: rgb(255, 0, 0);
+    padding-left: 30%;
+}
+#torijobb{
+    float: right;
+    border-color: aqua;
+    padding-right: 30%;
 }
