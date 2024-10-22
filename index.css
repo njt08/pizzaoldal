@@ -1,16 +1,33 @@
 .tortenet{
     background-color: rgb(63, 63, 63);
     height: 350px;
-    color: white;
-    border-color:  rgb(63, 63, 63);
+    border: solid greenyellow;
+    color: #fff;
+    padding-top: 4%;
 }
 #toribal{
     float: left;
-    border-color: rgb(255, 0, 0);
-    padding-left: 30%;
+    text-align: right;
+    border: solid red;
 }
 #torijobb{
     float: right;
-    border-color: aqua;
-    padding-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: solid blue;
+}
+#toricim{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(177, 177, 177);
+    font-weight: lighter;
+}
+#pizzeriacim{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#toritxt{
+    color: rgb(177, 177, 177);
+}
+#toritable{
+    border: solid greenyellow;
 }
