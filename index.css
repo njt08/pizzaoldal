@@ -1,3 +1,13 @@
+.fooldal{
+    background-image: url(kepek/pizza..svg);
+    padding-top: 3%;
+    padding-bottom: 9%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: 140vw;
+    background-position: center;
+}
 .tortenet{
     background-color: rgb(37, 37, 37);
     height: 350px;
@@ -23,6 +33,12 @@
 .alcim{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(177, 177, 177);
+    font-weight: lighter;
+}
+.focim{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-left: 4%;
     font-weight: lighter;
 }
 .cim{
