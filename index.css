@@ -110,7 +110,7 @@ body{
 }
 .nyitvatartas{
     background-color: rgb(14, 14, 14);
-    height: 1500px;
+    height: 750px;
     color: #fff;
     padding-top: 4%;
 }
@@ -126,10 +126,21 @@ body{
     float: right;
     padding-right: 15%;
     max-width: 220px;
-    margin-top: -55%;
+    margin-top: -48%;
 }
 .nyitvakozep{
     margin: auto;
     margin-top: 2%;
-    max-width: 250px;
+    max-width: 325px;
+}
+.footer{
+    background-color: rgb(14, 14, 14);
+    text-align: center;
+    height: 150px;
+    padding-top: 2%;
+}
+.nyitvahr{
+    color: rgb(177, 177, 177);
+    font-size: large;
+    max-width: 890px;
 }
