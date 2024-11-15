@@ -118,20 +118,24 @@ body{
     text-decoration: underline #ffff;
 }
 .nyitvabal{
+    width: 23%;
+    display: inline;
     float: left;
-    padding-left: 15%;
+    padding-left: 12%;
+    padding-right: 3%;
+}
+.nyitvakozep{
+    width: 43%;
+    display: inline;
+    margin-top: 4%;
+    max-width: 325px;
+    margin: auto;
+    float: left;
     padding-right: 3%;
 }
 .nyitvajobb{
-    float: right;
-    padding-right: 15%;
-    max-width: 220px;
-    margin-top: -48%;
-}
-.nyitvakozep{
-    margin: auto;
-    margin-top: 2%;
-    max-width: 325px;
+    width: 34%;
+    display: inline;
 }
 .footer{
     background-color: rgb(14, 14, 14);
