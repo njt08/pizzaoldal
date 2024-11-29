@@ -38,7 +38,7 @@
 }
 #toribal{
     text-align: right;
-    padding-left: 27%;
+    padding-left: 22%;
     display: inline;
     float: left;
     margin: 0;
@@ -184,11 +184,11 @@ body{
     text-decoration: underline #ffff;
 }
 .nyitvabal{
-    width: 23%;
+    width: 26%;
     display: inline;
     float: left;
-    padding-right: 3%;
-    padding-left: 12%;
+    padding-left: 10%;
+    padding-right: 2%;
 }
 .nyitvakozep{
     width: 43%;
@@ -200,9 +200,9 @@ body{
     padding-right: 3%;
 }
 .nyitvajobb{
-    width: 30%;
+    width: 27%;
     display: inline;
-    padding-right: 12%;
+    padding-right: 15%;
 }
 .footer{
     background-color: rgb(14, 14, 14);
@@ -234,4 +234,19 @@ body{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+}
+@media only screen and (min-width:1100px) and (max-width: 1540px){
+    .tortenet{
+        height: 350px;
+    }
+    #toribal{
+        padding-left: 7%;
+        float: left;
+        margin: 0;
+    }
+    #torijobb{
+        padding-right: 7%;
+        float: right;
+        max-width: 700px;
+    }
 }
