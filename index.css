@@ -74,19 +74,27 @@
     line-height: 1.5;
 }
 .menu{
+    clear: both;
     background-color: rgb(14, 14, 14);
     height: 350px;
     color: #fff;
     padding-top: 4%;
     padding-bottom: 3%;
     text-align: center;
-    padding-left: 22%;
-    padding-right: 22%;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
 }
 body{
     margin: 0cm;
     background-color:rgb(14, 14, 14); ;
 } 
+.gombok{
+    justify-content: space-evenly;
+}
+.gomblista{
+    display: inline-flex;
+}
 #gomb{
     border: solid white 1px;
     list-style-type: none;
