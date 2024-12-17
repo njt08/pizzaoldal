@@ -5,7 +5,7 @@
     line-height: 1.5;
     float: right;
     margin-right: 2%;
-    margin-top: -3%;
+    margin-top: -4%;
     word-spacing: 6px;
 }
 .fooldal{
@@ -81,29 +81,22 @@
     padding-top: 4%;
     padding-bottom: 3%;
     text-align: center;
-    display: flex;
-    justify-content: center;
     max-width: 800px;
+    margin: 0 auto;
 }
 body{
     margin: 0cm;
     background-color:rgb(14, 14, 14); ;
 } 
-.gombok{
-    justify-content: space-evenly;
-}
 .gomblista{
-    display: inline-flex;
+    padding: 0;
+    margin-top: 50px;
 }
 #gomb{
     border: solid white 1px;
     list-style-type: none;
     display: inline;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding:  20px 70px;
     font-size: large;
     font-weight: lighter;
     margin: 0 20px;
@@ -302,5 +295,29 @@ body{
         width: 100%;
         height: 300px;
         background-size: auto;
+    }
+}
+
+/* MENÜ RESZPONZIVITÁS */
+@media only screen and (min-width:768px) and (max-width: 992px){
+    #gomb{
+        display: inline;
+        padding:  20px 10%;
+    }
+}
+@media only screen and (min-width:600px) and (max-width: 768px){
+    #gomb{
+        display: inline;
+        padding:  20px 6%;
+    }
+}
+@media only screen and (max-width: 600px){
+    #gomb{
+        display: block;
+        padding:  20px 10%;
+        margin-top: 50px;
+    }
+    .menu{
+        height: 120%;
     }
 }
