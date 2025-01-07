@@ -115,7 +115,7 @@ body{
     grid-template-rows: repeat(9, 60px);
     grid-gap: 27px;
     margin: 0 auto;
-    width: 1020px;
+    
 }
 .kepek div{
     display: flex;
@@ -319,5 +319,18 @@ body{
     }
     .menu{
         height: 120%;
+    }
+}
+
+/* GALLÉRIA RESZPONZIVITÁS */
+@media only screen and (min-width:600px) and (max-width: 992px){
+    .kepek{
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    .kepek{
+        display: block;
+        height: 100%;
     }
 }
