@@ -115,7 +115,7 @@ body{
     grid-template-rows: repeat(9, 60px);
     grid-gap: 27px;
     margin: 0 auto;
-    
+    width: 1018px;
 }
 .kepek div{
     display: flex;
@@ -326,11 +326,68 @@ body{
 @media only screen and (min-width:600px) and (max-width: 992px){
     .kepek{
         margin: 0 auto;
+        width: 60%;
+        height: 60%;
+    }
+    #pizza1{
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: repeat(9, 60px);
+        width: 600px;
+    }
+    #vorosboros{
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: repeat(9, 60px);
+        width: 600px;
+    }
+    #vegyes{
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: repeat(9, 60px);
+        width: 600px;
+    }
+    #pizza2{
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: repeat(9, 60px);
+        width: 600px;
+    }
+    #eloetel{
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: repeat(9, 60px);
+        width: 600px;
     }
 }
 @media only screen and (max-width: 600px){
     .kepek{
         display: block;
-        height: 100%;
+        margin: auto;
+        width: 95%;
+    }
+    #pizza1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 400px;
+    }
+    #vorosboros{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 600px;
+    }
+    #vegyes{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 400px;
+    }
+    #pizza2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 400px;
+    }
+    #eloetel{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 300px;
+    }
+    .specialitasaink{
+        height: 120%;
+        padding-bottom: 20px;
     }
 }
