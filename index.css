@@ -323,36 +323,38 @@ body{
 }
 
 /* GALLÉRIA RESZPONZIVITÁS */
-@media only screen and (min-width:600px) and (max-width: 992px){
+@media only screen and (min-width:600px) and (max-width: 1050px){
+    .specialitasaink{
+        height: 1000px;
+        padding-bottom: 20px;
+    }
+    
     .kepek{
+        grid-template-columns: repeat(12, auto);
+        grid-template-rows: repeat(9, auto);
+        width: 90%;
+        height: 70%;
         margin: 0 auto;
-        width: 60%;
-        height: 60%;
     }
     #pizza1{
-        grid-template-columns: repeat(12, 60px);
-        grid-template-rows: repeat(9, 60px);
-        width: 600px;
+        grid-template-columns: repeat(12, 23px);
+        grid-template-rows: repeat(9, 23px);
     }
     #vorosboros{
-        grid-template-columns: repeat(12, 60px);
-        grid-template-rows: repeat(9, 60px);
-        width: 600px;
+        grid-template-columns: repeat(12, 23px);
+        grid-template-rows: repeat(9, 23px);
     }
     #vegyes{
-        grid-template-columns: repeat(12, 60px);
-        grid-template-rows: repeat(9, 60px);
-        width: 600px;
+        grid-template-columns: repeat(12, 23px);
+        grid-template-rows: repeat(9, 23px);
     }
     #pizza2{
-        grid-template-columns: repeat(12, 60px);
-        grid-template-rows: repeat(9, 60px);
-        width: 600px;
+        grid-template-columns: repeat(12, 23px);
+        grid-template-rows: repeat(9, 23px);
     }
     #eloetel{
-        grid-template-columns: repeat(12, 60px);
-        grid-template-rows: repeat(9, 60px);
-        width: 600px;
+        grid-template-columns: repeat(12, 23px);
+        grid-template-rows: repeat(9, 23px);
     }
 }
 @media only screen and (max-width: 600px){
