@@ -187,7 +187,7 @@ body{
     width: 26%;
     display: inline;
     float: left;
-    padding-left: 10%;
+    padding-left: 4%;
     padding-right: 2%;
 }
 .nyitvakozep{
@@ -391,5 +391,36 @@ body{
     .specialitasaink{
         height: 120%;
         padding-bottom: 20px;
+    }
+}
+
+/* NYITVATARTÁS RESZPONZIVITÁS */
+@media only screen and (min-width:600px) and (max-width: 1050px){
+    .nyitvahr{
+        max-width: 80%;
+    }
+    .nyitvabal{
+        padding-left: 0.5%;
+    }
+    .nyitvakozep{
+        padding-left: 4%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .nyitvatartas div{
+        display: block;
+    }
+    .nyitvabal{
+        padding: 0%;
+        margin: 0%;
+        float: right;
+    }
+    .nyitvajobb{
+        padding: 0%;
+        margin: 0%;
+    }
+    .nyitvakozep{
+        padding: 0%;
+        margin: 0%;
     }
 }
